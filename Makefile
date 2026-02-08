@@ -1,2 +1,2 @@
 make:
-	g++ -Wall -Werror src/main.cpp -ljsoncpp -o main
+	g++ -Wall src/main.cpp -ljsoncpp -o main

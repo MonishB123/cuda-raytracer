@@ -28,7 +28,7 @@
       1.0,
       1.0
     ],
-    "shininess": 32
+    "shininess": 100
   },
   "lights": {
     "type": "point",

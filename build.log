@@ -1,0 +1,9 @@
+nvcc -O3 -arch=sm_60 -I./vcpkg/installed/x64-windows/include -allow-unsupported-compiler -D_ALLOW_COMPILER_AND_STL_VERSION_MISMATCH -c src/cuda/raytracer.cu -o obj/cuda/raytracer.o
+raytracer.cu
+tmpxft_000046c8_00000000-10_raytracer.cudafe1.cpp
+nvcc -O3 -arch=sm_60 -I./vcpkg/installed/x64-windows/include -allow-unsupported-compiler -D_ALLOW_COMPILER_AND_STL_VERSION_MISMATCH -o main obj/main.o obj/cuda/raytracer.o -L./vcpkg/installed/x64-windows/lib -ljsoncpp
+main.o
+raytracer.o
+cl : Command line warning D9024 : unrecognized source file type 'C:\Users\bvnar\Desktop\cuda-raytracer\obj\main.o', object file assumed
+cl : Command line warning D9024 : unrecognized source file type 'C:\Users\bvnar\Desktop\cuda-raytracer\obj\cuda\raytracer.o', object file assumed
+   Creating library main.lib and object main.exp

@@ -1,24 +1,46 @@
 {
   "camera": {
-    "position": [0, 1, 5],
-    "look_at": [0, 0, 0],
+    "position": [
+      0,
+      -20,
+      50
+    ],
+    "look_at": [
+      0,
+      -22,
+      31
+    ],
     "fov": 60
   },
-  "objects":
-    {
-      "type": "mesh",
-      "file": "cat",
-      "material": "mat1"
-    },
-  "materials": {
-      "diffuse": [0.8, 0.3, 0.3],
-      "specular": [1.0, 1.0, 1.0],
-      "shininess": 32
+  "objects": {
+    "type": "mesh",
+    "file": "cat",
+    "material": "mat1"
   },
-  "lights":
-    {
-      "type": "point",
-      "position": [5, 5, 5],
-      "intensity": [1.0, 1.0, 1.0]
-    }
+  "materials": {
+    "diffuse": [
+      0.8,
+      0.3,
+      0.3
+    ],
+    "specular": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "shininess": 32
+  },
+  "lights": {
+    "type": "point",
+    "position": [
+      5,
+      5,
+      5
+    ],
+    "intensity": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
 }

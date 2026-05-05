@@ -2,7 +2,7 @@
   "camera": {
     "position": [
       0,
-      -20,
+      -100,
       50
     ],
     "look_at": [
@@ -10,7 +10,7 @@
       -22,
       31
     ],
-    "fov": 60
+    "fov": 100
   },
   "objects": {
     "type": "mesh",
@@ -28,19 +28,19 @@
       1.0,
       1.0
     ],
-    "shininess": 100
+    "shininess": 10
   },
   "lights": {
     "type": "point",
     "position": [
-      5,
-      5,
-      5
+      0,
+      -100,
+      0
     ],
     "intensity": [
-      1.0,
-      1.0,
-      1.0
+      10.0,
+      10.0,
+      10.0
     ]
   }
 }
